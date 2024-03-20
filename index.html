@@ -1,66 +1,592 @@
-<!DOCTYPE html>  
-<html lang="zh">  
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>福瑞控Luis的博客</title>
+<link rel = "icon" href = "images/icon.ico">
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<meta name="viewport" content="width=400, initial-scale=2.0, user-scalable=no, minimum-sacle=1, maximum-scale=1" >
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/contact-form.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/TMForm.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/ip.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('.gallery .gall_item').touchTouch();
+ });
+ $(document).ready(function(){
+     jQuery('#camera_wrap').camera({
+      loader: false,
+      pagination: true ,
+      minHeight: '500',
+      thumbnails: false,
+      height: '44.42708333333333%',
+      caption: true,
+      navigation: false,
+      fx: 'mosaic'
+    });
+    $('.gallery .gall-item').touchTouch();
+  });
+
+
+
+
+
+
+
+
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="texture">
+<!--==============================
+              header
+=================================-->
+<header id="home" class="page">
+  <div class="navigation single-page-nav">
+    <div class="container_12">
+      <div class="grid_12">
+        <h1 class="logo">
+          <!--<img src="https://tool.lu/netcard/">-->
+        </h1>
+        <nav>
+          <ul>
+            <!--<iframe width="160" scrolling="no" height="100" frameborder="0" allowtransparency="true" src="https://i.tianqi.com?c=code&id=81&bgc=%23C6C6C6&icon=1&py=dalian&site=9"></iframe>-->
+            
+           <li><a href="#home" class="current">主页</a></li>
+           <li><a href="#about">关于我</a></li>
+           <li><a href="#portfolio">照片墙</a></li>
+           <li><a href="#skills">时间分配</a></li>
+           <li><a href="#experience">学习路上</a></li>
+           <li><a href="#contacts">最后</a></li>
+         </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div id="camera_wrap">
+    <div data-src="images/slide1.jpg">
+      <div class="caption fadeIn">福瑞控 <span class="bull"></span> LZP卓越  <span class="bull"></span> 个人博客~</div>
+    </div>
+    <div data-src="images/slide2.png">
+      <div class="caption fadeIn">我的设子:卓越，一只傻狼~</div>
+    </div>
+    <div data-src="images/slide3.jpg">
+      <div class="caption fadeIn">热爱生活，享受生活</div>
+    </div>
+  </div>
+</header>
+
+
+
+<!--=====================
+          Content
+======================-->
+<section id="about" class="page">
+  <div class="ic"></div>
+  <div class="pad-1">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2>关于我
+          <span>About Me</span>
+        </h2>
+        <p class="offset__1">一寸光阴一寸金，寸金难买寸光阴</p>
+        <img src="images/page-img_1.jpg" alt="" class="fleft">
+        <div class="extra_wrapper">
+          <div class="text-1">
+            Luis|卓越
+          </div>
+          <div class="text-2 color1">
+            <a href="https://space.bilibili.com/1283468503">Bilibili</a> &bull;
+            <a href="https://github.com/WinToGo-LZP">Github</a> &bull;
+            <a href="https://dlmetroled.mysxl.cn">大连地铁模拟器</a>
+          </div>
+          <p>Hello,大家好，咱是一只叫做卓越的兽兽，来自美丽的滨城辽宁大连 <a rel="nofollow" href="https://ditu.amap.com/search?query=%E8%BE%BD%E5%AE%81%E7%9C%81%E5%A4%A7%E8%BF%9E%E5%B8%82&city=210200&geoobj=121.270743%7C38.814834%7C121.293469%7C38.824959&zoom=16.39" class="color1">地图</a>.  </p>
+          <p>你可以在<a rel="nofollow" href="https://space.bilibili.com/1283468503" class="color1">Bilibili</a>上，看我发布的新视频</p>
+          <p>我在上初中，同时在开发一个叫做大连地铁LED模拟器的软件.我还是一名福瑞控，设子是一只狼，嗷呜~</p>
+          <p>如果您想要了解更多，请点击下方按钮</p>
+          <a href="https://space.bilibili.com/1283468503" class="btn">了解更多</a>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+<section id="portfolio" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2 class="color2">照片墙~</h2>
+      <div id="filters" class="button-group">
+        <a href="#" class="btn is-checked" data-filter="*">显示所有</a>
+        <a href="#" class="btn" data-filter=".bus">公交车</a>
+        <a href="#" class="btn" data-filter=".metro">地铁</a>
+      </div>
+      <div class="el gallery" id="isotope">
+        <div class="element metro">
+          <div>
+            <a href="images/metro/1.jpg" class="gall-item"><img src="images/metro1.jpg" alt=""><span></span></a>
+        </div>
+        </div>
+        <div class="element metro">
+          <div>
+            <a href="images/metro/2.jpg" class="gall-item"><img src="images/metro2.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element  bus">
+          <div>
+            <a href="images/bus/7.jpg" class="gall-item"><img src="images/bus7.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="element bus">
+          <div>
+            <a href="images/bus/1.jpg" class="gall-item"><img src="images/bus1.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element bus">
+          <div>
+            <a href="images/bus/2.jpg" class="gall-item"><img src="images/bus2.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element bus">
+          <div>
+            <a href="images/bus/3.jpg" class="gall-item"><img src="images/bus3.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element bus">
+          <div>
+            <a href="images/bus/4.jpg" class="gall-item"><img src="images/bus4.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element bus">
+          <div>
+            <a href="images/bus/5.jpg" class="gall-item"><img src="images/bus5.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element bus">
+          <div>
+            <a href="images/bus/6.jpg" class="gall-item"><img src="images/bus6.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="skills" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>时间分配</h2>
+    </div>
+    <div class="grid_3">
+     <div style="clear:both"></div>
+        <div class="circle">
+          <input class="knob" data-angleOffset=0 value="60" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">学习</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset=0 value="15" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">计算机</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset=0 value="20" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">运动</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset=0 value="5" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">福瑞</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="experience" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>学习路上</h2>
+      <div class="block-1">
+        <div class="grid_4 alpha">
+          <div class="block-1__left">
+            <h3>2010-一切之初</h3>
+            <time  datetime="2010-08-07" class="text-2">August</time>
+            <div class="ta__right">
+              <div class="text-2 color1">第一阶段</div>
+              我来到了这个世界
+            </div>
+          </div>
+        </div>
+        <div class="grid_8 omega">
+          <div class="block-2__right">
+            <h3>Luis</h3>
+            <div class="text-2">我的童年</div>
+            <p>2010年，那是一个立秋。我就在那一天，来到了这个世界 </p>
+            还曾记得，当时我出生后不久，就开始下大雨。哗啦啦的大雨，下了整整一周才停下来。大概等我四岁的时候，我上了幼儿园，明白了什么是社会，但那时候的我，还不懂得，什么是社会的险恶。我很单纯，也很内向。
+          </div>
+        </div>
+      </div>
+      <div class="block-1">
+        <div class="grid_4 alpha">
+          <div class="block-1__left">
+            <h3>小学</h3>
+            <h3>2016 - 2022</h3>
+            <time  datetime="2016-09-01" class="text-2">September <span>July</span></time>
+            <div class="ta__right">
+              <div class="text-2 color1">第二阶段</div>
+              开始逐渐适应群体生活
+            </div>
+          </div>
+        </div>
+        <div class="grid_8 omega">
+          <div class="block-2__right">
+            <h3>Luis</h3>
+            <div class="text-2">我的小学</div>
+            <p>2016年9月份，我开始了小学一年级  </p>
+            怀着忐忑的心情，我开始了小学生活。一二三年级的我，不善于说话，表达，甚至有一次，尿了裤子，也不敢和老师说。但是到了四年级，我逐渐变得开放，还担任了班级浇花的责任。每次值日，都被老师夸赞。但是一转眼，2022年，我的6年级念完了，该离开了......于是，我开始了初中生活
+          </div>
+        </div>
+      </div>
+    <div class="block-1">
+      <div class="grid_4 alpha">
+        <div class="block-1__left">
+          <h3>初中</h3>
+          <h3>2022 - 202X</h3>
+          <time  datetime="2022-09-01" class="text-2">September <span>----</span></time>
+          <div class="ta__right">
+            <div class="text-2 color1">第三阶段</div>
+            思维转变，学习方式发生变化
+          </div>
+        </div>
+      </div>
+      <div class="grid_8 omega">
+        <div class="block-2__right">
+          <h3>Luis</h3>
+            <div class="text-2">我的初中</div>
+            <p>2022年9月份，我进入了初中</p>
+            对我来说，这完全是一个全新的阶段。知识点突然变难，思考问题的方式，突然从发散变成了螺旋形，而且上课老师讲的也不是特别详细了，书上教的，考试根本没用。让我一时陷入了学业的巨大压力。2023年初，新冠疫情爆发，我感染了。从那以后，我的身体就经常性出问题。平均一周生一次病。上学以后也是这样。所以请假休息。但是落的课太多了，让我甚至出现了轻生的行为。一直到了当年的十月份，才发现是新冠疫情和青春期雄性分泌激素过盛导致的植物神经紊乱。于是，就彻底在家，安心养病，一直到现在。
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="contacts" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>一寸光阴一寸金，寸金难买寸光阴</h2>
+    </div>
+    <img src="https://tool.lu/netcard/">
+    <iframe width="800" height="150" frameborder="0" scrolling="no" hspace="0" src="https://i.tianqi.com/?c=code&a=getcode&id=48&num=6&icon=1"></iframe>
+
+    <div class="clear"></div>
+  </div>
+  <div class="container_12">
+    <div class="grid_12">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+</section>
+<h1>访问IP: <span id="ip"></span></h1>  
   
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>大连地铁LED模拟器官网</title>  
-    <style>  
-        body {  
-            font-family: Arial, sans-serif;  
-            margin: 0;  
-            padding: 0;  
-            background-color: #f2f2f2;  
-        }  
-          
-        .container {  
-            width: 100%;  
-            max-width: 1200px;  
-            margin: 0 auto;  
-            padding: 20px;  
-        }  
-          
-        h1 {  
-            color: #333;  
-            text-align: center;  
-            font-size: 36px;  
-            margin-bottom: 20px;  
-        }  
-        h2 {  
-            color: #333;  
-            text-align: center;  
-            font-size: 36px;  
-            margin-bottom: 20px;  
-        }  
-          
-        p {  
-            color: #666666;  
-            line-height: 1.6;  
-            margin-bottom: 15px; 
-            font-size: 20px; 
-        }  
-          
-        .button {  
-            display: inline-block;  
-            background-color: #00ff73;  
-            color: #fff;  
-            text-align: center;  
-            padding: 10px 20px;  
-            border-radius: 5px;  
-            cursor: pointer;  
-            text-align: center; 
-        }  
-    </style>  
-</head>  
-  
-<body>  
-    <div class="container">  
-        <h1>大连地铁LED模拟器</h1>  
-        <h2>当前版本1.0.0</h2>
-        <h2>页面托管于GitHub</h2>
-        <p>一款用来模仿大连地铁LED报站指示牌的软件。帮助您了解大连地铁。此软件作者并非官方，所以请不要过度依赖！如果有侵权，请联系我！2473131393@qq.com</p>  
-        <div class="button"style="color: white;"><a href="https://github.com/WinToGo-LZP/Dalian-Metro-LED-Simu/releases">跳转Github下载</a></div>  
-    </div>  
-</body>  
-  
+<script>  
+    // 获取IP的函数  
+    function getIP(callback) {  
+        var x = new XMLHttpRequest();  
+        x.onreadystatechange = function () {  
+            if (x.readyState == 4 && x.status == 200) {  
+                var myArr = JSON.parse(x.responseText);  
+                var ip = myArr[0];  
+                callback(ip);  
+            }  
+        };  
+        x.open("GET", "https://api.ipify.org?format=json", true);  
+        x.send();  
+    }  
+
+    // 使用函数并把结果插入到HTML中  
+    getIP(function (ip) {  
+        document.getElementById('ip').innerText = ip;  
+    });  
+</script>  
+
+<!--==============================
+              footer
+=================================-->
+</div>
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="copyright"> &copy; <span id="copyright-year">2024</span>| <a href="#">福瑞卓越的博客 </a> <br>
+       友情链接：<a href="https://dlmetroled.mysxl.cn" target="_blank" title="大连地铁模拟器">大连地铁模拟器</a> <a href="https://space.bilibili.com/1283468503" target="_blank">Bilibili </a> 
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+<script src="js/jquery.singlePageNav.min.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="w-550px"></div>
+<div class="full"></div>
+
+<script>
+  // Prevent console.log from generating errors in IE for the purposes of the demo
+  if ( ! window.console ) console = { log: function(){} };
+  // The actual plugin
+  $('.single-page-nav').singlePageNav({
+      offset: $('.single-page-nav').outerHeight(),
+      filter: ':not(.external)',
+      updateHash: true,
+      beforeStart: function() {
+          console.log('begin scrolling');
+      },
+      onComplete: function() {
+          console.log('done scrolling');
+      }
+  });
+</script>
+<script type="text/javascript">
+          google_api_map_init();
+          function google_api_map_init(){
+            var map;
+            var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14));
+            var styleArray = [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#193341"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2c5a71"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#29768a"
+            },
+            {
+                "lightness": -37
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#406d80"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#406d80"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#3e606f"
+            },
+            {
+                "weight": 2
+            },
+            {
+                "gamma": 0.84
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "weight": 0.6
+            },
+            {
+                "color": "#1a3541"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2c5a71"
+            }
+        ]
+    }
+]
+            function initialize() {
+              var mapOptions = {
+                zoom: 13,
+                center: coordData,
+                scrollwheel: false,
+                styles: styleArray
+              }
+              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+            google.maps.event.addDomListener(window, 'resize', function() {
+              map.setCenter(coordData);
+              var center = map.getCenter();
+            });
+          }
+            google.maps.event.addDomListener(window, "load", initialize);
+          }
+      </script>
+              <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+      <script src="js/jquery.knob.js"></script>
+<script>
+  $(function($) {
+    $(".knob").knob({
+        change : function (value) {
+            //console.log("change : " + value);
+        },
+        release : function (value) {
+            //console.log(this.$.attr('value'));
+            console.log("release : " + value);
+        },
+        cancel : function () {
+            console.log("cancel : ", this);
+        },
+        /*format : function (value) {
+            return value + '%';
+        },*/
+        draw : function () {
+            // "tron" case
+            if(this.$.data('skin') == 'tron') {
+                this.cursorExt = 0.3;
+                var a = this.arc(this.cv)  // Arc
+                    , pa                   // Previous arc
+                    , r = 1;
+                this.g.lineWidth = this.lineWidth;
+                if (this.o.displayPrevious) {
+                    pa = this.arc(this.v);
+                    this.g.beginPath();
+                    this.g.strokeStyle = this.pColor;
+                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                    this.g.stroke();
+                }
+                this.g.beginPath();
+                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                this.g.stroke();
+                this.g.lineWidth = 2;
+                this.g.beginPath();
+                this.g.strokeStyle = this.o.fgColor;
+                this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                this.g.stroke();
+                return false;
+            }
+        }
+    });
+    // Example of infinite knob, iPod click wheel
+    var v, up=0,down=0,i=0
+        ,$idir = $("div.idir")
+        ,$ival = $("div.ival")
+        ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
+        ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
+    $("input.infinite").knob(
+                        {
+                        min : 0
+                        , max : 20
+                        , stopper : false
+                        , change : function () {
+                                        if(v > this.cv){
+                                            if(up){
+                                                decr();
+                                                up=0;
+                                            }else{up=1;down=0;}
+                                        } else {
+                                            if(v < this.cv){
+                                                if(down){
+                                                    incr();
+                                                    down=0;
+                                                }else{down=1;up=0;}
+                                            }
+                                        }
+                                        v = this.cv;
+                                    }
+                        });
+    });
+</script>
+<script src="js/isotop_ini.js"></script>
+</body>
 </html>
