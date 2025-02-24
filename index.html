@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅顺公交查询系统</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>旅顺公交查询系统</h1>
+        </header>
+        <div class="marquee">
+            <marquee style="color:white;background-color:red;">大连交通运输集团有限公司旅顺客运分公司恭祝全市人民新春快乐，蛇年大吉！</marquee>
+        </div>
+        <main>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="搜索公交线路，输入数字即可">
+                <button id="search-button">搜索</button>
+                <button onclick="window.location.href='https://dljyzyzlm.feishu.cn/wiki/JdvGwXJrTii7XNkhfNxcWouxnod?from=from_copylink' " style="background-color: #007bff;color:white;">帮助</button>
+            </div>
+            <div>
+                <p>输入格式例:"1、82、开发区1路、开发区工业园区环路"</p>
+                <p style="color: red;">暂不支持搜索2002路，2003路，2007路，敬请谅解！</p>
+            </div>
+            <div class="hot-routes">
+                <h2>热门线路</h2>
+                <ul id="hot-routes-list">
+                    <li class="route-item" data-route="1">1路</li>
+                    <li class="route-item" data-route="6">6路</li>
+                    <li class="route-item" data-route="82">82路</li>
+                    <li class="route-item" data-route="18">18路</li>
+                    <li class="route-item" data-route="205">205路</li>
+
+                </ul>
+            </div>
+             <!-- 图片容器 -->
+            <!-- 图片容器 -->
+            <div id="image-container" style="display: none;">
+                <img id="route-image" src="" alt="线路图" class="rectangle-image">
+            </div>
+            <div class="route-details" id="route-details">
+                <h2>线路详情</h2>
+                <div id="route-info">
+                    <p>线路：<span id="route-name"></span></p>
+                    <div id="direction-1" class="direction">
+                        <h3>上行</h3>
+                        <p>起点车站：<span id="start-point-1"></span></p>
+                        <p>终点车站：<span id="end-point-1"></span></p>
+                        <p>首车时间：<span id="first-bus-1"></span></p>
+                        <p>末车时间：<span id="last-bus-1"></span></p>
+                        <p>票价信息：<span id="fare-1"></span></p>
+                        <p>发车时间：<span id="departure-times-1"></span></p>
+                    </div>
+                    <div id="direction-2" class="direction">
+                        <h3>下行</h3>
+                        <p>起点车站：<span id="start-point-2"></span></p>
+                        <p>终点车站：<span id="end-point-2"></span></p>
+                        <p>首车时间：<span id="first-bus-2"></span></p>
+                        <p>末车时间：<span id="last-bus-2"></span></p>
+                        <p>票价信息：<span id="fare-2"></span></p>
+                        <p>发车时间：<span id="departure-times-2"></span></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 大连交通运输集团有限公司旅顺客运分公司</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

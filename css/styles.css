@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.hot-routes h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hot-routes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hot-routes li {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hot-routes li:hover {
+    background-color: #0056b3;
+}
+
+.route-details {
+    margin-top: 20px;
+}
+
+.route-details h2 {
+    text-align: center;
+}
+
+.route-details .direction {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.route-details .direction h3 {
+    margin: 0 0 10px;
+}
+
+.route-details p {
+    margin: 5px 0;
+}
+
+.rectangle-image {
+    width: 100%; /* 图片宽度占满容器 */
+    height: 200px; /* 固定高度 */
+    object-fit: cover; /* 确保图片填充整个容器 */
+    display: block;
+    margin: 0 auto;
+}
+
+.image-box {
+    margin: 10px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+}
+.marquee{
+    background-color: #007bff;
+    color: white;
+
+}
